@@ -38,7 +38,7 @@ Open the chatbot in your browser and interact using simple keywords:
 - **hello / hi / hey** → Bot greets you  
 - **how are you** → Bot replies with its status  
 - **who are you** → Bot introduces itself  
-- **what is your creator name** → Bot tells you about the creator  
+- **who is your developer** → Bot tells you about the creator  
 - **profile** → Shows a menu:
   - `1` → Education  
   - `2` → Skills  
