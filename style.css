@@ -101,36 +101,46 @@ body {
   100% { opacity: 0.2; }
 }
 
-/* Mobile view adjustments */
+/* Mobile view: center chat log */
 @media screen and (max-width: 600px) {
   body {
-    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;       
+    min-height: 100vh;         
     margin: 0;
     padding: 0;
+    background: #f0f0f0;      
   }
 
   #chatLog {
-    width: 95%;         
-    max-height: 70vh;    
+    width: 90%;               
+    max-height: 70vh;         
+    overflow-y: auto;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.9);
     padding: 10px;
-    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   }
 
   .userMsg, .botMsg {
-    max-width: 85%;      
+    max-width: 85%;
     font-size: 14px;
     padding: 6px 10px;
   }
 
   #userBox {
-    width: 90%;          
+    width: 85%;
     padding: 8px;
     font-size: 14px;
+    margin-top: 10px;
   }
 
   button {
     padding: 8px 12px;
     font-size: 14px;
+    margin-top: 5px;
   }
 }
 
