@@ -87,14 +87,14 @@ Bot: My skills include Web Development(HTML, CSS, JavaScript, React), Software D
    - Folder: `/root`  
 4. Save.  
 5. Your chatbot will be live at:  
-   `https://your-username.github.io/chatbot-project/`
+   `https://saurabhgautam56.github.io/chatbot-project/`
 
 ### Custom Domain
 1. Buy a domain (e.g., `saurabhchatbot.com`).  
 2. Add it under **Custom domain** in GitHub Pages settings.  
 3. Update DNS records at your registrar:  
    - **A Records** → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`  
-   - **CNAME Record** → `www` → `your-username.github.io`  
+   - **CNAME Record** → `www` → `saurabhgautam56.github.io`  
 4. Enable **Enforce HTTPS**.  
 
 ---
