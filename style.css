@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #31055f, #032257); /* gradient background */
+  background: linear-gradient(135deg, #31055f, #032257); 
   text-align: center;
   margin-top: 50px;
   color: #fff;
@@ -10,7 +10,7 @@ body {
   width: 60%;
   margin: 0 auto 20px;
   padding: 15px;
-  background: rgba(255, 255, 255, 0.1); /* semi-transparent box */
+  background: rgba(255, 255, 255, 0.1); 
   border: 2px solid #ffffff10;
   border-radius: 10px;
   text-align: left;
@@ -41,34 +41,34 @@ body {
 }
 
 .userMsg {
-  background: #ffeb3b10;   /* yellow bubble */
-  color: #c1d12f;           /* dark text for contrast */
+  background: #ffeb3b10;  
+  color: #c1d12f;           
   padding: 6px 10px;
   margin: 5px 0;
   border-radius: 15px;
   max-width: 70%;
   font-weight: bold;
   text-align: left;
- /* Alignment to the right */
+
   float: right;
   clear: both;
 }
 .botMsg {
-  background: #2ae03918;   /* green bubble */
-  color: #46d821;           /* white text for contrast */
+  background: #2ae03918;  
+  color: #46d821;           
   padding: 6px 10px;
   margin: 5px,0;
   border-radius: 15px;
   max-width: 70%;
   font-style: italic;
   text-align: left;
-  /* Alignment to the left */
+ 
   float: left;
   clear: both;
 }
 
 .typingIndicator {
-  background: #00e676;   /* same as bot bubble */
+  background: #00e676;   
   color: #fff;
   padding: 6px 12px;
   margin: 5px 0;
@@ -106,22 +106,23 @@ body {
   body {
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center;   
     align-items: center;       
     min-height: 100vh;         
     margin: 0;
     padding: 0;
-    background: #f0f0f0;      
+    background: linear-gradient(135deg, #31055f, #032257);       
   }
 
   #chatLog {
-    width: 90%;               
+    width: 90%;                
+    max-width: 400px;          
     max-height: 70vh;         
-    overflow-y: auto;
-    border-radius: 10px;
-    background: rgba(255,255,255,0.9);
-    padding: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    overflow-y: auto;          
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
 
   .userMsg, .botMsg {
@@ -134,14 +135,12 @@ body {
     width: 85%;
     padding: 8px;
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 
   button {
     padding: 8px 12px;
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 6px;
   }
 }
-
-
