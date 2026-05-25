@@ -41,45 +41,27 @@ body {
 }
 
 .userMsg {
-<<<<<<< HEAD
-  background: #ffeb3b10;   
-=======
-  background: #ffeb3b10;  
->>>>>>> 794b5a912a0659a556dd1cd4e83c20245b3fe452
-  color: #c1d12f;           
+  background: #ffeb3b10;
+  color: #c1d12f;
   padding: 6px 10px;
   margin: 5px 0;
   border-radius: 15px;
   max-width: 70%;
   font-weight: bold;
   text-align: left;
-<<<<<<< HEAD
-=======
-
->>>>>>> 794b5a912a0659a556dd1cd4e83c20245b3fe452
   float: right;
   clear: both;
 }
+
 .botMsg {
-<<<<<<< HEAD
-  background: #2ae03918;   
-  color: #46d821;           
+  background: #2ae03918;
+  color: #46d821;
   padding: 6px 10px;
   margin: 5px 0;
-=======
-  background: #2ae03918;  
-  color: #46d821;           
-  padding: 6px 10px;
-  margin: 5px,0;
->>>>>>> 794b5a912a0659a556dd1cd4e83c20245b3fe452
   border-radius: 15px;
   max-width: 70%;
   font-style: italic;
   text-align: left;
-<<<<<<< HEAD
-=======
- 
->>>>>>> 794b5a912a0659a556dd1cd4e83c20245b3fe452
   float: left;
   clear: both;
 }
@@ -118,11 +100,6 @@ body {
   100% { opacity: 0.2; }
 }
 
-<<<<<<< HEAD
-/* Mobile view: center and resize chat log */
-=======
-/* Mobile view: center chat log */
->>>>>>> 794b5a912a0659a556dd1cd4e83c20245b3fe452
 @media screen and (max-width: 600px) {
   body {
     display: flex;
@@ -165,7 +142,3 @@ body {
     margin-top: 6px;
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 794b5a912a0659a556dd1cd4e83c20245b3fe452
