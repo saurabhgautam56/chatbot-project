@@ -27,7 +27,11 @@ let know = {
 
   // 🧑 Combined Creator Profile
   "tell me about yourself": 
+<<<<<<< HEAD
     "Here's a little about my developer:\n\n" +
+=======
+    "Here's a little about my creator:\n\n" +
+>>>>>>> 794b5a912a0659a556dd1cd4e83c20245b3fe452
     "🎓 Education: Completed Computer Science and Engineering at Dr. A.P.J. Abdul Kalam Technical University.\n" +
     "🛠 Skills: Web Development(HTML, CSS, JavaScript, React), Software Development(Java, C++), QA Testing, Programming (Java, C++, Python).\n" +
     "📂 Projects: Built a custom music player, a chatbot, and several web applications.",
